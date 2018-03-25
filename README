@@ -1,4 +1,5 @@
-ili9341
+This is a modification of sammyizimmy's ili9341 code to use and arduino ili9341 shield and the Waveshare ARPI600 the IM0 pin 
+has been commented out as the shield does this for you.
 ========
 A Raspberry pi framebuffer driver for the ili9341 lcd driver.
 I am using the NHD-2.4-240320SF-CTXI#-T1 (http://www.newhavendisplay.com/nhd24240320sfctxit1-p-3975.html)
