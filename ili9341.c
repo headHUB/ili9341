@@ -30,21 +30,21 @@
 #define GPIO_SET *(gpio+7)  // sets   bits which are 1 ignores bits which are 0
 #define GPIO_CLR *(gpio+10) // clears bits which are 1 ignores bits which are 0
 
-#define DATA0 9
-#define DATA1 11
-#define DATA2 18
-#define DATA3 23
-#define DATA4 24
-#define DATA5 25
-#define DATA6 8
-#define DATA7 7
+#define DATA0 25
+#define DATA1 4
+#define DATA2 17
+#define DATA3 18
+#define DATA4 27
+#define DATA5 22
+#define DATA6 23
+#define DATA7 24
 
 #define DC 4
-#define CS 27
-#define RD 14
-#define RW 15
-//#define IM0 10
-#define RESET 17
+#define CS 13
+#define RD 1
+#define RW 5
+//efine IM0 10
+#define RESET 19
 
 #define ORIENTATION 0 //0=LANDSCAPE 1=PORTRAIT  
 
